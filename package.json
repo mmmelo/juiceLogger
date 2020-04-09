@@ -1,0 +1,32 @@
+{
+  "name": "juicelogger",
+  "version": "1.0.0",
+  "description": "Very simple logging library for JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmelo/juicerLogger.git"
+  },
+  "keywords": [
+    "juiceLogger",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "loglevel",
+    "tools",
+    "json"
+  ],
+  "author": "mmmelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmmelo/juicerLogger/issues"
+  },
+  "homepage": "https://github.com/mmmelo/juicerLogger#readme",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
