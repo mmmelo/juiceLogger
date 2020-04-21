@@ -69,10 +69,30 @@ const logError = (text) => {
     });
 }
 
+const printSuccess = (text) => {
+    return console.log(chalk.inverse.greenBright('success'), text);
+}
+
+const printWarn = (text) => {
+    return console.log(chalk.inverse.magentaBright('warn'), text);
+}
+
+const printInfo = (text) => {
+    return console.log(chalk.inverse.blueBright('info'), text);
+}
+
+const printError = (text) => {
+    return console.log(chalk.inverse.redBright('error'), text);
+}
+
 module.exports = {
     log,
     logError,
     logInfo,
     logSuccess,
     logWarn,
+    printSuccess,
+    printWarn,
+    printInfo,
+    printError,
 };
